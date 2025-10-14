@@ -1,0 +1,23 @@
+.barrasuperior_blanca {
+  position:;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid rgb(180, 180, 180);
+ justify-content: space-between;
+ gap: 10px;
+ font-size: small;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+.conteneor_principal_blanco{
+    width: 55%;
+    text-align: center;
+    margin: auto;
+}
+
+.color{
+    background-color: rgb(255, 255, 255);
+}
