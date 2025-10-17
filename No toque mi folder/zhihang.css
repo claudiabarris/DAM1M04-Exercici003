@@ -2,17 +2,6 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
-.TituloNegro{
-    font-size: 58px;
-    color: white;
-}
-.ParrafoNegro{
-    font-size: 20px;
-    color: rgb(166,166,166);
-    font-weight: 400;
-    text-align: center;
-}
 .fondonegro{
     background-color: black;
     width: 100%;
@@ -22,16 +11,38 @@ body{
 }
 .imagenegro{
     width: 100%;
-    max-width: 1100px;
+    max-width: 1080px;
     height: auto;
 }
-.contentenedortitulonegro{
+.contentenedornegro{
     width: 55%;
-    text-align: center;
     margin: auto;
 }
-.contentenedorparrafonegro{
-    width: 50%;
+
+.contentenedornegro h1{
+    font-size: 58px;
+    color: white;
+
+}
+.contentenedornegro p{
+    font-size: 20px;
+    color: rgb(166,166,166);
     text-align: center;
-    margin: auto;
+}
+
+.contentenedornegro2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; /*especio entre divs*/ 
+}
+.contentenedornegro2 h3{
+    font-size: 58px;
+    color: white;
+
+}
+.contentenedornegro2 p{
+    font-size: 20px;
+    color: rgb(166,166,166);
+    text-align: center;
 }
