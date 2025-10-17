@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="Claudia.css">
+       <title>Principal</title>
+    </head>
+    <body>
+        <div class="contenedor_central">
+            <h1>
+                Everithing you need to create beatiful designs.
+            </h1>
+            <p>
+                Whether you’re working on a design for a poster, a webpage, or a blockbuster app, you’ll make your ideas come to life in Pixelmator Pro. 
+                With smart spacing guides, advanced alignment tools, and blazing fast performance, you can harness the full power of layer-based editing.
+            </p>
+        </div>
+    </body>
+</html>
