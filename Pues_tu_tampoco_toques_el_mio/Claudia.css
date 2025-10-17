@@ -1,3 +1,8 @@
+.autocenter_global{
+    max-width: 1264px;
+    display: flexbox,
+}
+
 .barrasuperior_blanca {
   position:;
   width: 100%;
@@ -30,6 +35,7 @@
     justify-content: center;
     position: relative;
     width: 55%;
+    
     
     
     
