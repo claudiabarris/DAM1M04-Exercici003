@@ -6,8 +6,8 @@ body{
 }
 
 .barrasuperior_blanca {
-  position:;
   width: 100%;
+  height: 100%;
   background: rgb(255, 255, 255);
   margin: auto;
   display: flex;
@@ -16,18 +16,62 @@ body{
  justify-content: space-between;
  gap: 10px;
  font-size: small;
- margin-left: 50px;
- margin-right: 50px;
+ padding-top: 18px;
 }
-.conteneor_principal_blanco{
-    width: 55%;
+.conteneor_1_blanco{
+    width: auto;
     text-align: center;
     margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    align-items: center;
+    max-width: 1280px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteneor_1_blanco_link{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
 }
 
-.color{
-    background-color: rgb(255, 255, 255);
+.img_hero{
+    max-width: 1106px;
+  width: 100%;  
+  margin: auto;
+  padding-top: 100px;
 }
+
+.texto_1{
+    font-size: 20px;
+    padding-top: 50px;  
+}
+
+.buy_button{
+    padding-top: 40px;
+    text-align: center;
+
+}
+.buy_button_text{
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      font-size: 14px;
+      border: 2px solid #ee254a; 
+      border-radius: 999px; 
+      color: #ee254a;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      background-color: white;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
 /*css de la segunda parte de fondo blanco*/
 .contenedor_central{
     font-family: Arial, Helvetica, sans-serif;
