@@ -2,15 +2,14 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 100px;
-    justify-content: center;
-    text-align: center;
     background-color: black;
 }
 /* Principal */
 .imagenegro{
-    width: 100%;
+    width: 1300px;
     height: auto;
     display: block;
+    margin: auto;
 }
 .imagen-contenedor {
     width: 100%;
@@ -47,6 +46,12 @@ body {
     gap: 20px;
     width: 100%;
 }
+
+.cartasnegras:last-child .card .card-description {
+    text-align: left;
+    margin-right: 600px; 
+}
+
 .card {
     background-color: #1A1A1A;
     border-radius: 12px;
