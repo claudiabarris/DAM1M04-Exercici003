@@ -7,19 +7,19 @@ body{
 
 .barrasuperior_blanca {
   width: 100%;
+  max-width: 1280px;
   height: 100%;
   background: rgb(255, 255, 255);
-  margin: auto;
   display: flex;
   align-items: center;
   border-bottom: 2px solid rgb(180, 180, 180);
  justify-content: space-between;
- gap: 10px;
  font-size: small;
  padding-top: 18px;
+ position: relative;
 }
 .conteneor_1_blanco{
-    width: auto;
+    width: 100%;
     text-align: center;
     margin: auto;
     margin-left: auto;
