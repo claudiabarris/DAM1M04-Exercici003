@@ -1,11 +1,12 @@
 body{
+
     margin: 0;
     font-family: Arial, sans-serif;
-    max-width: 1260px;
-    margin: 0%;
+    max-width: 1264px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
-    padding: 100px;
-
 }
 /* barra superiror fixe i tranparent*/
 .topnav{ 
@@ -32,7 +33,7 @@ body{
     padding: 15px;
     width: 100%;
     max-width: 1260px;
-    background: #fff;
+    background: #ffffff;
     padding: 20px 0;
     font-family: sans-serif;
      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
@@ -166,9 +167,9 @@ body{
     margin-bottom: 60px;
 }
 
+/*contenedor gris flojo con imagen*/
 .grey_box{
-  padding-top: 700px;
-  background: #e6e1e1;            /* fondo gris claro */
+    background: #e6e1e1;            /* fondo gris claro */
   border-radius: 12px;            /* esquinas redondeadas */
   padding: 40px;                  /* espacio interno */
   display: flex;                  /* dos columnas */
@@ -177,7 +178,9 @@ body{
   gap: 40px;                      /* separación entre texto e imagen */
   max-width: 1000px;
   margin: 0 auto;                 /* centrar el bloque en la página */
+  margin-bottom: 60px;
 }
+
 
 .grey_box_content{
   flex: 1;                        /* ocupa el espacio que hay disponible en el cuadro */
@@ -190,27 +193,32 @@ font-size: 20px;
 font-size: 16px;
 }
 .grey_box_imagen{
-    flex: 1;
+  
+  flex: 1;
   display: flex;
-  justify-content: center;
+  align-items: flex-end;
 }
 
 .grey_box_imagen img{
-  max-width: 100%;
+  width: 100%;
   height: auto;
   border-radius: 8px;
+  display: block;
 }
-.contenedor_tareta{
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.targeta{
-  border-radius: 20px;
-  padding: 50px;
+
+/*contenedores con imagenes*/
+.contenedor_smart_guides {
+  background-image:url("/img/img_design-guides@2x.jpg"); /*foto como fondo de contenedro*/
+  background-size: cover;  /*la imagen ocupara todo el contenedor*/
+  background-position: center;
+
   max-width: 450px;
+  padding: 150px;
+  border-radius: 25px;
+  box-sizing: border-box;
+
+  color: white;
 }
-.targeta_imagen{
-  background-image: image();
-}
+.contenedor_smart_guides p{
+  font-size: 15px;
+padding-left: 60px;}
