@@ -164,6 +164,32 @@ body {
     border-right: 1px solid rgba(255, 255, 255, 0.1); 
 }
 
+.contenedorcartasmas {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 20px; 
+    justify-content: center; 
+    padding: 20px; 
+}
+.textitodeabajomascard{
+    padding-top: 5%;
+    max-width: calc(30% - 10px); 
+    background-color: black;
+    border-radius: 5px;
+    text-align: left; 
+    margin-bottom: 40px; 
+    box-sizing: border-box; 
+    flex-grow: 1;
+}
+.textitodeabajomascard h3{
+    font-size: 18px;
+    color: white; 
+}
+.textitodeabajomascard p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: grey; 
+}
 
 
 
