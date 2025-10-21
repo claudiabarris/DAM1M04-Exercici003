@@ -4,6 +4,7 @@ body{
     max-width: 1260px;
     margin: 0%;
     background-color: white;
+    padding: 100px;
 
 }
 /* barra superiror fixe i tranparent*/
@@ -26,6 +27,7 @@ body{
   -webkit-backdrop-filter: blur(10px) saturate(140%);
 }
 .topnav2{
+    margin: 0%;
     justify-content: center;
     padding: 15px;
     width: 100%;
@@ -139,17 +141,61 @@ body{
 .contenedor_central h1{
     font-size: 70px;
     text-align: center;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .contenedor_central p{
+    max-width: 625px;
     font-size: 17px;
     text-align: center;
     color: rgb(53, 52, 52);
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .img_desing{
     margin-top: 50px;
     border-radius: 10px;
      box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.20);
-    max-width: 1000px;
-    height: auto;}
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grey_box{
+  
+  background: #e6e1e1;            /* fondo gris claro */
+  border-radius: 12px;            /* esquinas redondeadas */
+  padding: 40px;                  /* espacio interno */
+  display: flex;                  /* dos columnas */
+  align-items: center;            /* centra verticalmente */
+  justify-content: space-between;
+  gap: 40px;                      /* separación entre texto e imagen */
+  max-width: 1000px;
+  margin: 0 auto;                 /* centrar el bloque en la página */
+}
+
+.grey_box_content{
+  flex: 1;                        /* ocupa el espacio que hay disponible en el cuadro */
+}
+.grey_box_content h2{
+font-weight: bold;
+font-size: 20px;
+}
+.grey_box_contect p{
+font-size: 16px;
+}
+.grey_box_imagen{
+    flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.grey_box_imagen img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
