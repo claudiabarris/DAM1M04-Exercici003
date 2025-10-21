@@ -2,24 +2,68 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     max-width: 1260px;
-    margin: auto;
+    margin: 0%;
     background-color: white;
-}
 
-.topnav2{
-  width: 100%;
-  gap: 250px;
-  max-width: 1280px;
-  height: 100%;
-  background: rgb(255, 255, 255);
+}
+/* barra superiror fixe i tranparent*/
+.topnav{ 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: var(--nav-h);
+  flex: auto;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid rgb(180, 180, 180);
- justify-content: space-between;
- font-size: small;
- padding-top: 18px;
- 
+  justify-content: space-between;
+  gap: 16px;
+
+  padding: 0 20px;
+  border-bottom: 1px solid var(--glass-bd);
+
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
 }
+.topnav2{
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    max-width: 1260px;
+    background: #fff;
+    padding: 20px 0;
+    font-family: sans-serif;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+
+}
+
+.topnav2 .menu{
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+/*modificador per els links*/
+.topnav2 .menu a{
+    justify-content: space-between;
+    text-justify: center;
+  margin-left: 30px;
+   position: relative;
+    padding-bottom: 17px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+/*modificador href*/
+.topnav2 .menu a:hover{
+  background: rgba(255,255,255,0.55);
+  transform: translateY(-1px);
+}
+
 .conteneor_1_blanco{
     width: 100%;
     text-align: center;
@@ -72,25 +116,7 @@ body{
       font-family: Arial, Helvetica, sans-serif;
 
 }
-/* barra superiror fixe i tranparent*/
-.topnav{ 
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  height: var(--nav-h);
-  flex: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
 
-  padding: 0 20px;
-  border-bottom: 1px solid var(--glass-bd);
-
-  background: var(--glass-bg);
-  backdrop-filter: blur(10px) saturate(140%);
-  -webkit-backdrop-filter: blur(10px) saturate(140%);
-}
 .topnav .Pixelmator{
     font-size: 22px;
     font-weight: 600;
