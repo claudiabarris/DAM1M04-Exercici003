@@ -1,8 +1,11 @@
 body {
     font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 100px;
+    margin: auto;
+}
+.negro{
     background-color: black;
+    padding: 60px 0;
+    width: 100%;
 }
 /* Principal */
 .imagenegro{
@@ -139,3 +142,54 @@ body {
     font-size: 18px;
     font-weight: 500;
 }
+
+.barranegro {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin: 40px 0; 
+}
+
+.barranegrodentro {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 50px; 
+    overflow: hidden; 
+}
+
+.barranegrodentro a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.contenedorcartasmas {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 20px; 
+    justify-content: center; 
+    padding: 20px; 
+}
+.textitodeabajomascard{
+    padding-top: 5%;
+    max-width: calc(30% - 10px); 
+    background-color: black;
+    border-radius: 5px;
+    text-align: left; 
+    margin-bottom: 40px; 
+    box-sizing: border-box; 
+    flex-grow: 1;
+}
+.textitodeabajomascard h3{
+    font-size: 18px;
+    color: white; 
+}
+.textitodeabajomascard p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: grey; 
+}
+
+
+
