@@ -212,5 +212,5 @@ font-size: 16px;
   max-width: 450px;
 }
 .targeta_imagen{
-  
+  background-image: image();
 }
