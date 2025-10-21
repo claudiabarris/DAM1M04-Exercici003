@@ -163,10 +163,11 @@ body{
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
 }
 
 .grey_box{
-  
+  padding-top: 700px;
   background: #e6e1e1;            /* fondo gris claro */
   border-radius: 12px;            /* esquinas redondeadas */
   padding: 40px;                  /* espacio interno */
@@ -198,4 +199,18 @@ font-size: 16px;
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+}
+.contenedor_tareta{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.targeta{
+  border-radius: 20px;
+  padding: 50px;
+  max-width: 450px;
+}
+.targeta_imagen{
+  
 }
