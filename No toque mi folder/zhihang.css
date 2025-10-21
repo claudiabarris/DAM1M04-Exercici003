@@ -6,7 +6,7 @@ body {
 }
 /* Principal */
 .imagenegro{
-    width: 1300px;
+    width: 100%;
     height: auto;
     display: block;
     margin: auto;
@@ -71,7 +71,8 @@ body {
     color: white;
     margin-bottom: 5px;
 }
-
+.espacio {    margin-bottom: 300px;
+}
 .card-description {
     font-size: 18px;
     line-height: 1.5;
@@ -103,5 +104,38 @@ body {
     width: 100px;
     margin-left:30px;
 }
+.contenedorcartas {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 20px; 
+    justify-content: left; 
+    padding: 20px; 
+}
 
-
+.textitodeabajocard{
+    max-width: calc(50% - 20px); 
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left; 
+    margin-bottom: 40px; 
+    box-sizing: border-box; 
+    flex-grow: 1;
+}
+.textitodeabajocard h3{
+    font-size: 18px;
+    color: white; 
+    text-align: left;
+}
+.textitodeabajocard p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: grey; 
+    text-align: left;
+}
+.enlace{
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
