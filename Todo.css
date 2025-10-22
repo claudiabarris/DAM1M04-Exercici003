@@ -407,98 +407,30 @@ body{
     color: rgba(0, 0, 0, .88);
 }
 
-
-/*css de la segunda parte de fondo blanco*/
-.contenedor_central{
-    font-family: Arial, Helvetica, sans-serif;
+.blanco{
+    padding-top: 10%;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.contentenedorBlanco{
+    width: 100%;
+    max-width: 700px; 
+    margin:  auto;
+    text-align: center;
+}
+.contentenedorBlanco h1{
+    font-size: 65px;
+    margin: 0 0 15px 0;
+    line-height: 1.1;
+}
+.contentenedorBlanco p{
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+}
+.contentenedorBlanco img{
+    width: 100%;
+    display: block;
     margin: auto;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    width: 55%;
-    display: flex;
- 
+    padding: 30px;
 }
-.contenedor_central h1{
-    font-size: 70px;
-    text-align: center;
-    max-width: 625px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-.contenedor_central p{
-    max-width: 625px;
-    font-size: 17px;
-    text-align: center;
-    color: rgb(53, 52, 52);
-    margin-left: auto;
-    margin-right: auto;
-
-}
-.img_desing{
-   margin: auto;
-    border-radius: 10px;
-     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.20);
-    width: 70%;
-    height: auto;
-    
-    
-}
-
-/*contenedor gris flojo con imagen*/
-.grey_box{
-    background: #e6e1e1;            /* fondo gris claro */
-  border-radius: 12px;            /* esquinas redondeadas */
-  padding: 40px;                  /* espacio interno */
-  display: flex;                  /* dos columnas */
-  align-items: center;            /* centra verticalmente */
-  justify-content: space-between;
-  gap: 40px;                      /* separación entre texto e imagen */
-  max-width: 1000px;
-  margin: 0 auto;                 /* centrar el bloque en la página */
-  margin-bottom: 60px;
-}
-
-
-.grey_box_content{
-  flex: 1;                        /* ocupa el espacio que hay disponible en el cuadro */
-}
-.grey_box_content h2{
-font-weight: bold;
-font-size: 20px;
-}
-.grey_box_contect p{
-font-size: 16px;
-}
-.grey_box_imagen{
-  
-  flex: 1;
-  display: flex;
-  align-items: flex-end;
-}
-
-.grey_box_imagen img{
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  display: block;
-}
-
-/*contenedores con imagenes*/
-.contenedor_smart_guides {
-  background-image:url("/img/img_design-guides@2x.jpg"); /*foto como fondo de contenedro*/
-  background-size: cover;  /*la imagen ocupara todo el contenedor*/
-  background-position: center;
-
-  max-width: 450px;
-  padding: 150px;
-  border-radius: 25px;
-  box-sizing: border-box;
-
-  color: white;
-}
-.contenedor_smart_guides p{
-  font-size: 15px;
-padding-left: 60px;}
