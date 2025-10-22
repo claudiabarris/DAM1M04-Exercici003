@@ -1,0 +1,504 @@
+body{
+    margin: auto;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+/*Todo negro bueno lo mio*/
+.negro{
+    padding-top: 10%;
+    background-color: black;
+    width: 100%;
+    
+}
+/* Principal */
+.imagenegro{
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.imagen-contenedor {
+    width: 100%;
+    margin-top: 50px;
+}
+.contentenedornegro{
+    width: 100%;
+    max-width: 700px; 
+    margin:  auto;
+    text-align: center;
+}
+.contentenedornegro h1{
+    font-size: 58px;
+    color: white;
+    margin: 0 0 15px 0;
+    line-height: 1.1;
+}
+.contentenedornegro p{
+    font-size: 20px;
+    color: rgb(166, 166, 166);
+    margin: 0;
+}
+/* 3 cArtas */
+.contenedor3cartas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+.cartasnegras {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.cartasnegras:last-child .card .card-description {
+    text-align: left;
+    margin-right: 600px; 
+}
+
+.card {
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.card-title {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 60px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 5px;
+}
+.espacionegro {
+    margin-bottom: 200px;
+    background-color: black;
+}
+.espacioblanco{margin-top: 200px;}
+.card-description {
+    font-size: 18px;
+    line-height: 1.5;
+    color:  #E3E3E3; 
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 70px;
+    padding-bottom: 30px;
+}
+.card-description2{
+    font-size: 18px;
+    line-height: 1.5;
+    color:  #E3E3E3; 
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 600px;
+    padding-bottom: 30px;   
+}
+.contenedorvideo{
+    position: absolute;
+    width: 350px; 
+    height: 200px; 
+    bottom: 20px; 
+    right: 20px; 
+}
+
+.contenedorvideo video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.cilindromitad{
+    width: 350px;
+    margin: auto;
+
+}
+
+.docamarillo{
+    width: 100px;
+    margin-left:30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.contenedorcartas {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 20px; 
+    justify-content: left; 
+    padding: 20px; 
+}
+
+.textitodeabajocard{
+    max-width: calc(50% - 20px); 
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left; 
+    margin-bottom: 40px; 
+    box-sizing: border-box; 
+    flex-grow: 1;
+}
+.textitodeabajocard h3{
+    font-size: 18px;
+    color: white; 
+    text-align: left;
+}
+.textitodeabajocard p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: grey; 
+    text-align: left;
+}
+.contenedorenlace{
+    justify-content: center;
+    text-align: center;
+}
+
+.enlace{
+    color: blue;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.barranegro {
+    display: flex;
+    justify-content: center; 
+    width: 100%;
+    margin: 40px 0; 
+}
+
+.barranegrodentro {
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 50px; 
+    overflow: hidden; 
+}
+
+.barranegrodentro a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.contenedorcartasmas {
+    display: flex;
+    flex-wrap: wrap;     
+    gap: 20px; 
+    justify-content: center; 
+    padding: 20px; 
+}
+.textitodeabajomascard{
+    padding-top: 5%;
+    max-width: calc(30% - 10px); 
+    background-color: black;
+    border-radius: 5px;
+    text-align: left; 
+    margin-bottom: 40px; 
+    box-sizing: border-box; 
+    flex-grow: 1;
+}
+.textitodeabajomascard h3{
+    font-size: 18px;
+    color: white; 
+}
+.textitodeabajomascard p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: grey; 
+}
+.ultimo{
+    text-align: center;
+    padding: 80px 20px;
+}
+.ultimo h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.ultimo h3 {
+    font-size: 20px;
+    color: #333; 
+    margin-bottom: 30px;
+    font-weight: normal; 
+}
+.ultimo a {
+    text-decoration: none;
+    background: linear-gradient(180deg, #ff4c8a, #f72c68); 
+    color: white;
+    padding: 12px 40px;
+    box-shadow: 0 4px 10px rgba(247, 44, 104, 0.4); 
+    border-radius: 999px; 
+}
+
+
+.contenderfoot {
+    color: #333;
+    padding-top: 40px;
+    border-top: 1px solid #ddd; 
+}
+
+.espaciosfoot {
+    display: flex;
+    justify-content: space-between; 
+    max-width: 1200px; 
+    margin: 0 auto 50px auto; 
+}
+
+.columnas {
+    display: flex;
+    flex-direction: column; 
+}
+
+.columnas h3 {
+    font-size: 16px;
+    color: black;
+    margin-top: 0;
+}
+
+.columnas a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px; 
+}
+
+.columnas a:hover{
+    color:darkgray
+}
+
+.copyrigth {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-top: 1px solid #ddd; 
+}
+
+.copyrigth p {
+    font-size: 12px;
+    color: #999;
+}
+/*Aqui acaba lo mio del css*/
+
+
+
+
+/* barra superiror fixe i tranparent*/
+.topnav{ 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: var(--nav-h);
+  flex: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--glass-bd);
+  background: var(--glass-bg);
+  backdrop-filter: blur(10px) saturate(140%);
+  -webkit-backdrop-filter: blur(10px) saturate(140%);
+}
+.topnav2{
+    margin: 0%;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    max-width: 1260px;
+    background: #ffffff;
+    padding: 20px 0;
+    font-family: sans-serif;
+     box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+
+}
+
+.topnav2 .menu{
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  gap: 20px;
+  
+}
+/*modificador per els links*/
+.topnav2 .menu a{
+    justify-content: space-between;
+    text-justify: center;
+  margin-left: 30px;
+   position: relative;
+    padding-bottom: 17px;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+}
+/*modificador href*/
+.topnav2 .menu a:hover{
+  background: rgba(255,255,255,0.55);
+  transform: translateY(-1px);
+}
+
+.conteneor_1_blanco{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    align-items: center;
+    max-width: 1280px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.conteneor_1_blanco_link{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.img_hero{
+    max-width: 1106px;
+  width: 100%;  
+  margin: auto;
+  padding-top: 100px;
+}
+
+.texto_1{
+    font-size: 20px;
+    padding-top: 50px;  
+}
+
+.buy_button{
+    padding-top: 40px;
+    text-align: center;
+
+}
+.buy_button_text{
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      font-size: 14px;
+      border: 2px solid #ee254a; 
+      border-radius: 999px; 
+      color: #ee254a;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      background-color: white;
+      cursor: pointer;
+      text-decoration: none;
+      font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.topnav .Pixelmator{
+    font-size: 22px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .88);
+}
+
+
+/*css de la segunda parte de fondo blanco*/
+.contenedor_central{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 55%;
+    display: flex;
+ 
+}
+.contenedor_central h1{
+    font-size: 70px;
+    text-align: center;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.contenedor_central p{
+    max-width: 625px;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(53, 52, 52);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.img_desing{
+   margin: auto;
+    border-radius: 10px;
+     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.20);
+    width: 70%;
+    height: auto;
+    
+    
+}
+
+/*contenedor gris flojo con imagen*/
+.grey_box{
+    background: #e6e1e1;            /* fondo gris claro */
+  border-radius: 12px;            /* esquinas redondeadas */
+  padding: 40px;                  /* espacio interno */
+  display: flex;                  /* dos columnas */
+  align-items: center;            /* centra verticalmente */
+  justify-content: space-between;
+  gap: 40px;                      /* separación entre texto e imagen */
+  max-width: 1000px;
+  margin: 0 auto;                 /* centrar el bloque en la página */
+  margin-bottom: 60px;
+}
+
+
+.grey_box_content{
+  flex: 1;                        /* ocupa el espacio que hay disponible en el cuadro */
+}
+.grey_box_content h2{
+font-weight: bold;
+font-size: 20px;
+}
+.grey_box_contect p{
+font-size: 16px;
+}
+.grey_box_imagen{
+  
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.grey_box_imagen img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+}
+
+/*contenedores con imagenes*/
+.contenedor_smart_guides {
+  background-image:url("/img/img_design-guides@2x.jpg"); /*foto como fondo de contenedro*/
+  background-size: cover;  /*la imagen ocupara todo el contenedor*/
+  background-position: center;
+
+  max-width: 450px;
+  padding: 150px;
+  border-radius: 25px;
+  box-sizing: border-box;
+
+  color: white;
+}
+.contenedor_smart_guides p{
+  font-size: 15px;
+padding-left: 60px;}
