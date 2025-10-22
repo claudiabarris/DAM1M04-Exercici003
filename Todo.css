@@ -435,13 +435,35 @@ body{
     padding: 30px;
 }
 .contenedorGris{
-    background: #e6e1e1;            /* fondo gris claro */
+  background: #e6e1e1;            /* fondo gris claro */
   border-radius: 12px;            /* esquinas redondeadas */
   padding: 40px;                  /* espacio interno */
   display: flex;                  /* dos columnas */
-  align-items: center;            /* centra verticalmente */
   justify-content: space-between;
-  gap: 40px;                      /* separación entre texto e imagen */
-  max-width: 1000px;
-  margin: 0 auto;                 /* centrar el bloque en la página */
+  margin: 0 auto; 
+  max-width: 800px;                /* centrar el bloque en la página */
+}
+
+
+.contenedorGris_content{
+  flex: 1;                        /* ocupa el espacio que hay disponible en el cuadro */
+}
+.contenedorGris_content h2{
+font-weight: bold;
+font-size: 20px;
+}
+.contenedorGris_content p{
+font-size: 16px;
+}
+.grey_box_imagen{
+  flex: 1;
+  display: flex;
+}
+
+.grey_box_imagen img{
+ flex: 1;
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
