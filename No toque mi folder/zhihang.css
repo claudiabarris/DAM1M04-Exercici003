@@ -24,6 +24,7 @@ body {
     margin:  auto;
     text-align: center;
 }
+
 .contentenedornegro h1{
     font-size: 58px;
     color: white;
@@ -275,3 +276,20 @@ body {
     font-size: 12px;
     color: #999;
 }
+.contentenedornegro2{
+    width: 100%;
+    max-width: 700px; 
+    margin:  auto;
+    text-align: center;
+}
+.contentenedornegro2 h1{
+    font-size: 58px;
+    margin: 0 0 15px 0;
+    line-height: 1.1;
+}
+.contentenedornegro2 p{
+    font-size: 22px;
+    margin: 0;
+}
+
+
