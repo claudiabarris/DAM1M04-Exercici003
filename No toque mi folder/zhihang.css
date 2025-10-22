@@ -207,6 +207,8 @@ body {
 .ultimo{
     text-align: center;
     padding: 80px 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .ultimo h1 {
     font-size: 36px;
@@ -281,15 +283,46 @@ body {
     max-width: 700px; 
     margin:  auto;
     text-align: center;
+    padding-top: 5%;
 }
 .contentenedornegro2 h1{
     font-size: 58px;
-    margin: 0 0 15px 0;
     line-height: 1.1;
+    width: 90%;
+    margin: auto;
 }
 .contentenedornegro2 p{
     font-size: 22px;
     margin: 0;
 }
 
+.carta4{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    max-width: 800px; 
+    margin: 50px auto; 
+    text-align: center;
+    padding-bottom: 5%;
+}
 
+.carta5{
+    width: 50%; 
+    box-sizing: border-box; 
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.carta5 p {
+  font-size: 16px;        
+  font-weight: 600;       
+  width: 70%; 
+  font-size: 20px;
+}
+
+.grisacio{
+    background-color: #F2F2F2;
+}
