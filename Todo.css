@@ -577,7 +577,7 @@ font-size: 16px;
 .titulo{
     justify-content: center;
    display: flex;
-   align-items: center
+   align-items: center;
 }
 .titulo .machine{
     color: rgb(255, 196, 0);
@@ -728,5 +728,65 @@ font-size: 16px;
 .graphique video{
     width: 100%;
     align-items: center;
-    
 }
+.graphique img{
+    width: 100%;
+    max-width: 300px;
+}
+/*Real time*/
+.Gris2{
+    width: 100%;
+    margin:  auto;
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f1f1f1;
+}
+.Gris2 h1{
+    margin-top: 150px;
+    font-size: 65px;
+    width: 40%;
+}
+.Gris2 p{
+    width: 40%;
+    font-size: 20px;
+    color: #666;
+}
+
+.contenedorEffects{
+    display: flex;
+    gap: 35px;
+    border-radius: 20px;
+    padding: 50px;
+}
+.contenedorEffects_img{
+    width: 60%;
+    object-fit: cover;
+    margin-left: -90px;
+}
+.tarjeta_RosiGris{
+    width: 30%;
+}
+.tarjeta_Gris{
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+}
+.tarjeta_Rosa{
+    margin-top: 20px;
+    padding: 30px;
+    background: #f58aa8;
+    color: white;
+    border-radius: 20px;
+}
+.tarjeta_Rosa p{
+    color: white;
+}
+.tarjeta_Rosa img{
+    width: 100%;
+}
+
+
