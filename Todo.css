@@ -1,14 +1,20 @@
-body{
+body {
     margin: auto;
     font-family: Arial, sans-serif;
     width: 100%;
 }
-/*Todo negro bueno lo mio*/
-.negro{
-    padding-top: 10%;
+.espacionegro {
     background-color: black;
-    width: 100%;
+    padding-bottom: 300px;
     
+}
+.espacioblanco{
+    padding-bottom: 150px;
+}
+.negro{
+    background-color: black;
+    padding: 60px 0;
+    width: 100%;
 }
 /* Principal */
 .imagenegro{
@@ -27,6 +33,7 @@ body{
     margin:  auto;
     text-align: center;
 }
+
 .contentenedornegro h1{
     font-size: 58px;
     color: white;
@@ -76,9 +83,7 @@ body{
     color: white;
     margin-bottom: 5px;
 }
-.espacionegro {
-    margin-bottom: 300px;
-    background-color: black;
+.espacio {    margin-bottom: 300px;
 }
 .card-description {
     font-size: 18px;
@@ -158,7 +163,6 @@ body{
     justify-content: center;
     text-align: center;
 }
-
 .enlace{
     color: blue;
     text-decoration: none;
@@ -216,6 +220,8 @@ body{
 .ultimo{
     text-align: center;
     padding: 80px 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .ultimo h1 {
     font-size: 36px;
@@ -285,6 +291,55 @@ body{
     font-size: 12px;
     color: #999;
 }
+.contentenedornegro2{
+    width: 100%;
+    max-width: 700px; 
+    margin:  auto;
+    text-align: center;
+    padding-top: 5%;
+}
+.contentenedornegro2 h1{
+    font-size: 58px;
+    line-height: 1.1;
+    width: 90%;
+    margin: auto;
+}
+.contentenedornegro2 p{
+    font-size: 22px;
+    margin: 0;
+}
+
+.carta4{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    max-width: 800px; 
+    margin: 50px auto; 
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.carta5{
+    width: 50%; 
+    box-sizing: border-box; 
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.carta5 p {
+  font-size: 16px;        
+  font-weight: 600;       
+  width: 70%; 
+  font-size: 20px;
+}
+
+.grisacio{
+    background-color: #F2F2F2;
+}
+
 /*Aqui acaba lo mio del css*/
 
 

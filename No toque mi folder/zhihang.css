@@ -1,6 +1,7 @@
 body {
-    font-family: 'Inter', sans-serif;
     margin: auto;
+    font-family: Arial, sans-serif;
+    width: 100%;
 }
 .negro{
     background-color: black;
