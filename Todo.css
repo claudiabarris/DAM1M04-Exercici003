@@ -400,9 +400,8 @@ body{
     color: rgba(0, 0, 0, .88);
 }
 
-/*div blanco 2*/
+/*div blanco general zonas blnacas*/
 .blanco{
-    padding-top: 10%;
     background-color: rgb(255, 255, 255);
     width: 100%;
 }
@@ -411,11 +410,13 @@ body{
     max-width: 700px; 
     margin:  auto;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .contentenedorBlanco h1{
     font-size: 65px;
-    margin: 0 0 15px 0;
-    line-height: 1.1;
 }
 .contentenedorBlanco p{
     font-size: 20px;
@@ -428,7 +429,12 @@ body{
     margin: auto;
     padding: 30px;
 }
-
+.contentenedorBlanco video{
+    width: 90%;
+    height: auto;
+    border-radius: 16px;
+    margin-top: 15px;
+}
 /*Contenedor gris con imagen*/
 .contenedorGris{
   background: #e6e1e1;            /* fondo gris claro */
@@ -437,7 +443,8 @@ body{
   display: flex;                  /* dos columnas */
   justify-content: space-between;
   margin: 0 auto; 
-  max-width: 800px;               
+  max-width: 800px;   
+  margin-top: 50px;            
 }
 
 
@@ -473,24 +480,26 @@ font-size: 16px;
     margin-top: 30px;
     align-items: stretch;
     margin-bottom: 100px;
-   
+    display: flex;
+    margin-top: 60px;
+
 
 }
 
 .smartGuides{
-    background-image: url(img/img_design-guides@2x.jpg);
-    background-size: cover;
-    color: white;
-    padding-top: 50px;
-    max-width: 420px;
-    width: 150%;
+    background: center / cover url(img/img_design-guides@2x.jpg);
     border-radius: 12px;
-    flex-direction: column;
+    box-sizing: border-box;
+    height: 450px;
+    width: 500px;
+    padding: 50px;
+    
 }
 .smartGuides p{
     font-size: 14px;
-    margin-left: 100px;
-    margin-top: 80px;
+    margin-left: 150px;
+    margin-top: 100px;
+    color: white;
 }
 
 .layerSytles{
@@ -507,10 +516,7 @@ font-size: 16px;
     margin: auto;
 }
 
-.layerSytles_img{
-    width: 180px;
-    margin-bottom: 20px;
-}
+
 
 /*image editing machine learning*/
 .titulo{
@@ -569,3 +575,33 @@ font-size: 16px;
     font-size: 18px;
     font-weight: bold;
 }
+
+/*Great-looking text*/
+.contenedorGratLooking{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    position: relative;
+
+}
+.contenedorGratLooking h1{
+    font-size: 65px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.contenedorGreat_imagen{
+    width: 100%;
+    overflow: hidden;
+    margin top: -40px;
+    position: relative;
+}
+.contenedorGreat_imagen  img{
+    display: block;
+    max-width: none;
+    height: auto;
+    width: 100%;
+    margin-top: -40px;
+}
+
+
