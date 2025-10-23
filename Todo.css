@@ -648,8 +648,9 @@ font-size: 16px;
 .contenedorGreat_imagen{
     width: 100%;
     overflow: hidden;
-    margin top: -40px;
+    margin-top:-40px;
     position: relative;
+    overflow: hidden;
 }
 .contenedorGreat_imagen  img{
     display: block;
