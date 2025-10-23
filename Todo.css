@@ -636,7 +636,7 @@ font-size: 16px;
     text-align: center;
     margin: auto;
     width: 100%;
-    position: relative;
+    padding-top: 40px;
 
 }
 .contenedorGratLooking h1{
@@ -644,20 +644,17 @@ font-size: 16px;
     margin: 0;
     padding: 0;
     line-height: 1;
+
 }
-.contenedorGreat_imagen{
-    width: 100%;
-    overflow: hidden;
-    margin-top:-40px;
-    position: relative;
-    overflow: hidden;
-}
-.contenedorGreat_imagen  img{
-    display: block;
+
+
+.contenedorGratLooking img{
+    display: inline-block;
     max-width: none;
     height: auto;
     width: 100%;
-    margin-top: -40px;
+    margin-top: -190px;
+    vertical-align: top;
 }
 
 
