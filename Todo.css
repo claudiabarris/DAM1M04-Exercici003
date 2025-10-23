@@ -758,7 +758,7 @@ font-size: 16px;
 
 .contenedorEffects{
     display: flex;
-    gap: 35px;
+    gap: 95px;
     border-radius: 20px;
     padding: 50px;
 }
@@ -775,6 +775,10 @@ font-size: 16px;
     border-radius: 20px;
     padding: 30px;
 }
+.tarjeta_Gris p{
+    margin: auto;
+    width: 60%;
+}
 .tarjeta_Rosa{
     margin-top: 20px;
     padding: 30px;
@@ -783,10 +787,36 @@ font-size: 16px;
     border-radius: 20px;
 }
 .tarjeta_Rosa p{
+    width: 70%;
     color: white;
+    margin: auto;
 }
 .tarjeta_Rosa img{
     width: 100%;
+    margin-bottom: -35px;
+}
+
+.IconosAdvanced{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 30px;
+}
+.IconosAdvanced_iconos{
+    text-align: center;
+}
+.IconosAdvanced_iconos img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+.IconosAdvanced_iconos p{
+    width: 100%;
+    font-size: 16px;
+    margin: auto;
 }
 
 
