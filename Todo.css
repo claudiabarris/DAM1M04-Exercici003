@@ -709,3 +709,24 @@ font-size: 16px;
     max-width: 480px;
     height: auto;
 }
+
+/*Graphique*/
+.Contenedro_cartasgraphique{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.graphique{
+    margin-top: 50px;
+    background-color: #f7f5f5;
+    border-radius: 20px;
+    width: 400px;
+    text-align: left;
+    color: #333;
+    padding: 30px;
+}
+.graphique video{
+    width: 100%;
+    align-items: center;
+    
+}
