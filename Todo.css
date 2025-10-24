@@ -459,10 +459,11 @@ body {
 .blanco{
     background-color: rgb(255, 255, 255);
     width: 100%;
+    margin-bottom: 50px;
 }
 .contentenedorBlanco{
     width: 100%;
-    max-width: 700px; 
+    max-width: 1264px; 
     margin:  auto;
     text-align: center;
     display: flex;
@@ -472,8 +473,10 @@ body {
 }
 .contentenedorBlanco h1{
     font-size: 65px;
+    width: 64%;
 }
 .contentenedorBlanco p{
+    width: 64%;
     font-size: 20px;
     margin: 0;
     padding: 20px;
@@ -755,6 +758,15 @@ font-size: 16px;
     font-size: 20px;
     color: #666;
 }
+.links{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.links a{
+    color: #217cb9;
+    text-decoration: none;
+    font-weight: bold;
+}
 
 .contenedorEffects{
     display: flex;
@@ -817,6 +829,66 @@ font-size: 16px;
     width: 100%;
     font-size: 16px;
     margin: auto;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000;
 }
 
+/*desingned and build*/
+.contenedor_designed{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contenedor_designed img{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenedor_designed p{
+    width: 50%;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px;
+}
+.contenedor_designed h1{
+    font-size: 65px;
+    width: 64%;
+    
+}
+.div_iconos{
+    max-width: 700px;
+    margin: auto;
+}
+.IconosAdvanced2{
+    margin: auto;
+    width: 100%;
+    max-width: 1264px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 30px;
+}
+.IconosAdvanced_iconos2{
+    text-align: center;
+    flex: 1;
+}
+.IconosAdvanced_iconos2 img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: auto;
 
+}
+.IconosAdvanced_iconos2 p{
+    width: 100%;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000;
+}
