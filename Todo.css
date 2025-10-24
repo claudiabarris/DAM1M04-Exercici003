@@ -354,12 +354,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 20px;
   padding: 0 20px;
   border-bottom: 1px solid var(--glass-bd);
   background: var(--glass-bg);
   backdrop-filter: blur(10px) saturate(140%);
   -webkit-backdrop-filter: blur(10px) saturate(140%);
+  z-index: 1;
 }
 .topnav .div{
     list-style: none;
@@ -379,8 +380,7 @@ body {
     max-width: 1000px;
     background: #ffffff;
     padding: 20px 0;
-    font-family: sans-serif;
-     box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    
 
 }
 
@@ -398,17 +398,14 @@ body {
 .topnav2 .menu a{
     justify-content: space-between;
     text-justify: center;
-  margin-left: 30px;
-   position: relative;
-    padding-bottom: 17px;
+    margin-left: 30px;
     font-size: 14px;
     color: #000;
     text-decoration: none;
 }
 /*modificador href*/
 .topnav2 .menu a:hover{
-  background: rgba(255,255,255,0.55);
-  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.55);
 }
 
 .conteneor_1_blanco{
@@ -462,7 +459,13 @@ body {
     font-size: 22px;
     font-weight: 600;
     color: rgba(0, 0, 0, .88);
-    margin-right: px;
+    margin-right: 450px;
+}
+
+.topnav .div img{
+    max-width: 50px;
+    display: block;
+    
 }
 
 /*div blanco general zonas blnacas*/
@@ -591,11 +594,23 @@ font-size: 16px;
     justify-content: center;
    display: flex;
    align-items: center;
+   flex-direction: column;
+}
+.titulo h1{
+    color: #000;
+    font-size: 50px;
 }
 .titulo .machine{
     color: rgb(255, 196, 0);
     font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: -20px;
 
+}
+.titulo p{
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
 }
 .contentenedorBlanco .editting{
     font-size: 50px;
