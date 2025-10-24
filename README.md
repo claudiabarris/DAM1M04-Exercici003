@@ -1,3 +1,3 @@
 integrants del grup
-Zhihang
-Claudia Barris
+Zhihang lin jiang
+Claudia Barris Fernández
