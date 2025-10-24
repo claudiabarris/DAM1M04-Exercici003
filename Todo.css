@@ -349,12 +349,11 @@ body {
 .topnav{ 
   position: sticky;
   top: 0;
-  z-index: 1000;
-  height: var(--nav-h);
+  height: 50px;
   flex: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 16px;
   padding: 0 20px;
   border-bottom: 1px solid var(--glass-bd);
@@ -362,12 +361,22 @@ body {
   backdrop-filter: blur(10px) saturate(140%);
   -webkit-backdrop-filter: blur(10px) saturate(140%);
 }
+.topnav .div{
+    list-style: none;
+    display: flex;
+     gap: 18px;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
 .topnav2{
-    margin: 0%;
+    margin: auto;
     justify-content: center;
     padding: 15px;
     width: 100%;
-    max-width: 1260px;
+    max-width: 1000px;
     background: #ffffff;
     padding: 20px 0;
     font-family: sans-serif;
@@ -453,6 +462,7 @@ body {
     font-size: 22px;
     font-weight: 600;
     color: rgba(0, 0, 0, .88);
+    margin-right: px;
 }
 
 /*div blanco general zonas blnacas*/
