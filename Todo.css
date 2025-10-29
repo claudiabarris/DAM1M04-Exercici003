@@ -495,7 +495,7 @@ body {
     padding: 20px;
 }
 .contentenedorBlanco img{
-    width: 100%;
+    width: 60%;
     display: block;
     margin: auto;
     padding: 30px;
@@ -681,7 +681,7 @@ font-size: 16px;
     max-width: none;
     height: auto;
     width: 100%;
-    margin-top: -190px;
+    margin-top: -140px;
     vertical-align: top;
 }
 
@@ -691,7 +691,7 @@ font-size: 16px;
     color: #666;
     margin: auto;
     max-width: 700px;
-    margin-top: -270px;
+    margin-top: -170px;
     
 }
 
